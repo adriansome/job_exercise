@@ -1,0 +1,113 @@
+/* 
+    Document   : style
+    Created on : 11-Dec-2013, 09:59:18
+    Author     : adrian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: yellow;
+    color: #000;
+    font-size: 87.5%;
+    font-family: arial;
+    line-height: 25px;
+    text-align: left;    
+}
+a{    
+    text-decoration: none;
+}
+.body{
+   margin: 0 auto;
+   width: 70%; 
+   clear: both;
+}
+#main-container{    
+    width: 100%;
+           border-radius: 5px;
+     -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      line-height: 25px;
+}
+#left-column{
+    float: left;
+    width: 64%;
+        margin: 0% 2% 0% 2%;
+    border-radius: 5px;
+     -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background-color: blue;
+      padding: 1%;
+}
+
+#left-column-box{
+    float: left;
+    width: 64%;
+    height: 120px;
+        margin: 0% 2% 0% 2%;
+    border-radius: 5px;
+     -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background-color: green;
+      padding: 1%;
+      box-shadow: 5px 5px 5px 5px indianred;
+       -moz-box-shadow: 5px 5px 5px 5px indianred;
+        -webkit-box-shadow: 5px 5px 5px 5px indianred;
+        transition: all 1s ease-in-out;
+          -moz-transition: all 1s ease-in-out;
+            -webkit-transition: all 1s ease-in-out;
+              -o-transition: all 1s ease-in-out;
+                transition: apacity 1s ease-in-out;
+}
+
+#left-column-box:hover{
+ opacity: 0.75;
+  background-color: red;
+}
+
+#right-column{
+      float: left;
+    width: 24%;
+        margin: 0% 2% 0% 2%;
+           border-radius: 5px;
+     -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background-color:orange;
+       padding: 1%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 650px){
+    .body{
+   width: 90%; 
+  font-size: 95%;
+}
+
+#left-column{
+    float: left;
+    width: 94%;
+        margin: 0% 2% 0% 2%;
+    border-radius: 5px;
+     -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background-color: blue;
+      padding: 1%;
+}
+
+
+#right-column{
+      float: left;
+    width: 94%;
+        margin: 0% 2% 0% 2%;
+           border-radius: 5px;
+     -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      background-color:orange;
+       padding: 1%;
+}
+    
+}
+
